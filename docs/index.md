@@ -6,7 +6,7 @@ Markdownには、HTMLやJavascriptを直接記載することが出来ます。
 
 - [vis](/vis.md): ネットワーク図/タイムライン/グラフ
 - [viz](/viz.md): ネットワーク図
-- [flowchartjs](/flowchartjs.md): フローチャート
+- [flowchartjs](/flowchartjs/index.md): フローチャート
 - [js-sequence-diagrams.md](/js-sequence-diagrams.md): シーケンス図
 - [chartjs](/chartjs/index.md): グラフ
 - [chartistjs](/chartistjs/index.md): グラフ
