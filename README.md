@@ -28,3 +28,20 @@ mkdocs build --clean
 # 静的ファイルをブラウザで表示
 mkdocs serve
 ```
+
+# このサンプルをローカルで試す
+buildして、Webサーバ起動して、ブラウザで見るが面倒なので簡易スクリプト化しました。
+でも、一発だけやれば良くて、一度Webサーバ起動した後に、docs配下を編集すると保存タイミングで自動ビルドされます。
+```
+$ git clone https://github.com/humangas/mkdocs-custom.git
+$ cd mkdocs-custom
+$ bash build_local-test.sh
+```
+
+# サンプルの更新（自分用）
+docs配下を修正し、それをgh-pagesにUPする時、手順が多く面倒なので簡易スクリプト化しました。
+```
+$ git clone https://github.com/humangas/mkdocs-custom.git
+$ cd mkdocs-custom
+$ bash build_gh-pages.sh
+```

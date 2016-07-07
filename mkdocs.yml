@@ -1,8 +1,8 @@
 site_name: mkdocs-custom
 site_author: humangas
-site_description: js ライブラリ サンプル
-site_url: https://humangas.github.io/mkdocs-custom
-repo_url: https://github.com/humangas/mkdocs-custom
+site_description: mkdocsで、javascript ライブラリ サンプル
+site_url: https://humangas.github.io/mkdocs-custom/
+repo_url: https://github.com/humangas/mkdocs-custom/
 
 theme: readthedocs
 

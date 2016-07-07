@@ -13,3 +13,5 @@ git commit -m 'update site'
 git push origin gh-pages
 
 git checkout master
+
+open -a "Google Chrome" "https://humangas.github.io/mkdocs-custom/"
