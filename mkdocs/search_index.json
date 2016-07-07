@@ -12,72 +12,72 @@
         }, 
         {
             "location": "/vis/", 
-            "text": "vis.js\n\n\n\n\n\n\n\n\n\n\n\n  var container = document.getElementById('visualization');\n  var data = [\n    {id: 1, content: 'item 1', start: '2013-04-20'},\n    {id: 2, content: 'item 2', start: '2013-04-14'},\n    {id: 3, content: 'item 3', start: '2013-04-18'},\n    {id: 4, content: 'item 4', start: '2013-04-16', end: '2013-04-19'},\n    {id: 5, content: 'item 5', start: '2013-04-25'},\n    {id: 6, content: 'item 6', start: '2013-04-27'}\n  ];\n  var options = {};\n  var timeline = new vis.Timeline(container, data, options);", 
+            "text": "vis.js\n\n\n\n\nsource code\n\n\n\n\n\n\n\n\n\n\n\n\n\n  var container = document.getElementById('visualization');\n  var data = [\n    {id: 1, content: 'item 1', start: '2013-04-20'},\n    {id: 2, content: 'item 2', start: '2013-04-14'},\n    {id: 3, content: 'item 3', start: '2013-04-18'},\n    {id: 4, content: 'item 4', start: '2013-04-16', end: '2013-04-19'},\n    {id: 5, content: 'item 5', start: '2013-04-25'},\n    {id: 6, content: 'item 6', start: '2013-04-27'}\n  ];\n  var options = {};\n  var timeline = new vis.Timeline(container, data, options);", 
             "title": "vis"
         }, 
         {
             "location": "/vis/#visjs", 
-            "text": "var container = document.getElementById('visualization');\n  var data = [\n    {id: 1, content: 'item 1', start: '2013-04-20'},\n    {id: 2, content: 'item 2', start: '2013-04-14'},\n    {id: 3, content: 'item 3', start: '2013-04-18'},\n    {id: 4, content: 'item 4', start: '2013-04-16', end: '2013-04-19'},\n    {id: 5, content: 'item 5', start: '2013-04-25'},\n    {id: 6, content: 'item 6', start: '2013-04-27'}\n  ];\n  var options = {};\n  var timeline = new vis.Timeline(container, data, options);", 
+            "text": "source code      \n  var container = document.getElementById('visualization');\n  var data = [\n    {id: 1, content: 'item 1', start: '2013-04-20'},\n    {id: 2, content: 'item 2', start: '2013-04-14'},\n    {id: 3, content: 'item 3', start: '2013-04-18'},\n    {id: 4, content: 'item 4', start: '2013-04-16', end: '2013-04-19'},\n    {id: 5, content: 'item 5', start: '2013-04-25'},\n    {id: 6, content: 'item 6', start: '2013-04-27'}\n  ];\n  var options = {};\n  var timeline = new vis.Timeline(container, data, options);", 
             "title": "vis.js"
         }, 
         {
             "location": "/viz/", 
-            "text": "Viz.js\n\n\n\n\n\n\n\n\n\ndigraph \"unix\" {\n  A [tooltip=\"\u30c4\u30fc\u30eb\u30c1\u30c3\u30d7\"]\n  A -> B;\n  \u3042 -> A;\n}\n\n\n\n\n\n//document.getElementById(\"diagram\").innerHTML = Viz(document.getElementById('digraph').innerHTML, 'svg');\n$(\"#diagram\").html(Viz(document.getElementById('digraph').innerHTML, 'svg'));", 
+            "text": "Viz.js\n\n\n\n\nsource code\n\n\n\n\n\n\n\n\n\n\n\ndigraph \"unix\" {\n  A [tooltip=\"\u30c4\u30fc\u30eb\u30c1\u30c3\u30d7\"]\n  A -> B;\n  \u3042 -> A;\n}\n\n\n\n\n\n//document.getElementById(\"diagram\").innerHTML = Viz(document.getElementById('digraph').innerHTML, 'svg');\n$(\"#diagram\").html(Viz(document.getElementById('digraph').innerHTML, 'svg'));", 
             "title": "viz"
         }, 
         {
             "location": "/viz/#vizjs", 
-            "text": "digraph \"unix\" {\n  A [tooltip=\"\u30c4\u30fc\u30eb\u30c1\u30c3\u30d7\"]\n  A -> B;\n  \u3042 -> A;\n}  \n//document.getElementById(\"diagram\").innerHTML = Viz(document.getElementById('digraph').innerHTML, 'svg');\n$(\"#diagram\").html(Viz(document.getElementById('digraph').innerHTML, 'svg'));", 
+            "text": "source code     \ndigraph \"unix\" {\n  A [tooltip=\"\u30c4\u30fc\u30eb\u30c1\u30c3\u30d7\"]\n  A -> B;\n  \u3042 -> A;\n}  \n//document.getElementById(\"diagram\").innerHTML = Viz(document.getElementById('digraph').innerHTML, 'svg');\n$(\"#diagram\").html(Viz(document.getElementById('digraph').innerHTML, 'svg'));", 
             "title": "Viz.js"
         }, 
         {
             "location": "/flowchartjs/", 
-            "text": "Flowchart.js\n\n\n\n\n\n\n\n\n\n\n\n\nst=>start: Start|past:>http://www.google.com[blank]\ne=>end: Ende|future:>http://www.google.com\nop1=>operation: My Operation|past\nop2=>operation: Stuff|current\nsub1=>subroutine: My Subroutine|invalid\ncond=>condition: Yes\nor No?|approved:>http://www.google.com\nc2=>condition: Good idea|rejected\nio=>inputoutput: catch something...|future\n\nst->op1(right)->cond\ncond(yes, right)->c2\ncond(no)->sub1(left)->op1\nc2(yes)->io->e\nc2(no)->op2->e\n\n\n\n\n\n$(\".diagram\").flowchart();", 
+            "text": "Flowchart.js\n\n\n\n\nsource code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nst=>start: Start|past:>http://www.google.com[blank]\ne=>end: Ende|future:>http://www.google.com\nop1=>operation: My Operation|past\nop2=>operation: Stuff|current\nsub1=>subroutine: My Subroutine|invalid\ncond=>condition: Yes\nor No?|approved:>http://www.google.com\nc2=>condition: Good idea|rejected\nio=>inputoutput: catch something...|future\n\nst->op1(right)->cond\ncond(yes, right)->c2\ncond(no)->sub1(left)->op1\nc2(yes)->io->e\nc2(no)->op2->e\n\n\n\n\n\n$(\".diagram\").flowchart();", 
             "title": "flowchartjs"
         }, 
         {
             "location": "/flowchartjs/#flowchartjs", 
-            "text": "st=>start: Start|past:>http://www.google.com[blank]\ne=>end: Ende|future:>http://www.google.com\nop1=>operation: My Operation|past\nop2=>operation: Stuff|current\nsub1=>subroutine: My Subroutine|invalid\ncond=>condition: Yes\nor No?|approved:>http://www.google.com\nc2=>condition: Good idea|rejected\nio=>inputoutput: catch something...|future\n\nst->op1(right)->cond\ncond(yes, right)->c2\ncond(no)->sub1(left)->op1\nc2(yes)->io->e\nc2(no)->op2->e  \n$(\".diagram\").flowchart();", 
+            "text": "source code      \nst=>start: Start|past:>http://www.google.com[blank]\ne=>end: Ende|future:>http://www.google.com\nop1=>operation: My Operation|past\nop2=>operation: Stuff|current\nsub1=>subroutine: My Subroutine|invalid\ncond=>condition: Yes\nor No?|approved:>http://www.google.com\nc2=>condition: Good idea|rejected\nio=>inputoutput: catch something...|future\n\nst->op1(right)->cond\ncond(yes, right)->c2\ncond(no)->sub1(left)->op1\nc2(yes)->io->e\nc2(no)->op2->e  \n$(\".diagram\").flowchart();", 
             "title": "Flowchart.js"
         }, 
         {
             "location": "/js-sequence-diagrams/", 
-            "text": "js-sequence-diagrams\n\n\n\n\n\n\n\n\n\n\n\n\nAlice->Bob: Hello Bob, how are you?\nNote right of Bob: Bob thinks\nBob-->Alice: I am good thanks!\n\n\n\n\n\n$(\".diagram\").sequenceDiagram({theme: 'simple'});", 
+            "text": "js-sequence-diagrams\n\n\n\n\nsource code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlice->Bob: Hello Bob, how are you?\nNote right of Bob: Bob thinks\nBob-->Alice: I am good thanks!\n\n\n\n\n\n$(\".diagram\").sequenceDiagram({theme: 'simple'});", 
             "title": "js-sequence-diagrams"
         }, 
         {
             "location": "/js-sequence-diagrams/#js-sequence-diagrams", 
-            "text": "Alice->Bob: Hello Bob, how are you?\nNote right of Bob: Bob thinks\nBob-->Alice: I am good thanks!  \n$(\".diagram\").sequenceDiagram({theme: 'simple'});", 
+            "text": "source code      \nAlice->Bob: Hello Bob, how are you?\nNote right of Bob: Bob thinks\nBob-->Alice: I am good thanks!  \n$(\".diagram\").sequenceDiagram({theme: 'simple'});", 
             "title": "js-sequence-diagrams"
         }, 
         {
             "location": "/chartjs/", 
-            "text": "Chart.js", 
+            "text": "Chart.js\n\n\n\n\nsource code", 
             "title": "chartjs"
         }, 
         {
             "location": "/chartjs/#chartjs", 
-            "text": "", 
+            "text": "source code", 
             "title": "Chart.js"
         }, 
         {
             "location": "/chartistjs/", 
-            "text": "Chartist.js", 
+            "text": "Chartist.js\n\n\n\n\nsource code", 
             "title": "chartistjs"
         }, 
         {
             "location": "/chartistjs/#chartistjs", 
-            "text": "", 
+            "text": "source code", 
             "title": "Chartist.js"
         }, 
         {
             "location": "/mermaid/", 
-            "text": "mermaid\n\n\n\n\n\n\n\n\n\nmermaid.initialize({startOnLoad:true});\n\n\n\ngraph TB\n    A[Hard edge] -->|Link text| B(Round edge)\n    B --> C{Decision}\n    C -->|One| D[Result one]\n    C -->|Two| E[Result two]", 
+            "text": "mermaid\n\n\n\n\nsource code\n\n\n\n\n\n\n\n\n\n\n\nmermaid.initialize({startOnLoad:true});\n\n\n\ngraph TB\n    A[Hard edge] -->|Link text| B(Round edge)\n    B --> C{Decision}\n    C -->|One| D[Result one]\n    C -->|Two| E[Result two]", 
             "title": "mermaid"
         }, 
         {
             "location": "/mermaid/#mermaid", 
-            "text": "mermaid.initialize({startOnLoad:true});  \ngraph TB\n    A[Hard edge] -->|Link text| B(Round edge)\n    B --> C{Decision}\n    C -->|One| D[Result one]\n    C -->|Two| E[Result two]", 
+            "text": "source code      mermaid.initialize({startOnLoad:true});  \ngraph TB\n    A[Hard edge] -->|Link text| B(Round edge)\n    B --> C{Decision}\n    C -->|One| D[Result one]\n    C -->|Two| E[Result two]", 
             "title": "mermaid"
         }
     ]
