@@ -6,13 +6,8 @@ repo_url: https://github.com/humangas/mkdocs-custom/
 
 theme: readthedocs
 
-extra_javascript:
-  # https://github.com/adrai/flowchart.js/blob/master/src/jquery-plugin.js
-  - js/flowchartjs/jquery-plugin.js
+extra_javascript: []
 extra_css: []
-
-#markdown_extensions:
-#      - fontawesome_markdown
 
 pages:
   - 'Home': 'index.md'
