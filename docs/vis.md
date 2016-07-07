@@ -1,4 +1,5 @@
 # [vis.js](http://visjs.org/index.html)
+- [source code](https://raw.githubusercontent.com/humangas/mkdocs-custom/master/docs/vis.md)
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.js"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.css" rel="stylesheet" type="text/css" />

@@ -1,4 +1,5 @@
 # [Flowchart.js](http://flowchart.js.org)
+- [source code](https://raw.githubusercontent.com/humangas/mkdocs-custom/master/docs/flowchartjs.md)
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.1/raphael.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.3/flowchart.min.js"></script>

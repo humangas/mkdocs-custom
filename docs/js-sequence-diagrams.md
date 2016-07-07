@@ -1,4 +1,5 @@
 # [js-sequence-diagrams](https://bramp.github.io/js-sequence-diagrams/)
+- [source code](https://raw.githubusercontent.com/humangas/mkdocs-custom/master/docs/js-sequence-diagrams.md)
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.1/raphael.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>

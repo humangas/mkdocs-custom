@@ -13,3 +13,18 @@
 ```
 $ pip install -U git+https://github.com/humangas/mkdocs.git@custom
 ```
+
+# Usage
+mkdocsと全く同じですが、ざっと書いておきます。
+
+```
+# プロジェクト作成
+mkdocs new <project name>
+
+# docs/配下にコンテンツ作成
+# 静的ファイルにビルド
+mkdocs build --clean
+
+# 静的ファイルをブラウザで表示
+mkdocs serve
+```

@@ -1,4 +1,5 @@
 # [Viz.js](http://mdaines.github.io/viz.js/)
+- [source code](https://raw.githubusercontent.com/humangas/mkdocs-custom/master/docs/viz.md)
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/viz.js/0.0.3/viz.js"></script>
 
