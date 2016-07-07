@@ -1,0 +1,84 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Index\n\n\nMarkdown\u306b\u306f\u3001HTML\u3084Javascript\u3092\u76f4\u63a5\u8a18\u8f09\u3059\u308b\u3053\u3068\u304c\u51fa\u6765\u307e\u3059\u3002\n\n\u305d\u306e\u305f\u3081\u3001\u4e16\u306e\u4e2d\u306eJS\u30e9\u30a4\u30d6\u30e9\u30ea\u3092\u7d44\u307f\u5408\u308f\u305b\u308b\u3068\u69d8\u3005\u306a\u30f4\u30a3\u30b8\u30e5\u30a2\u30eb\u8868\u73fe\u304c\u51fa\u6765\u307e\u3059\u3002\n\n\u3053\u306e\u30b5\u30f3\u30d7\u30eb\u3067\u306f\u3001\u305d\u306e\u4e00\u4f8b\u3092\u7d39\u4ecb\u3057\u307e\u3059\u3002\n\u5b9f\u969b\u306e\u66f8\u304d\u65b9\u306f\u30bd\u30fc\u30b9\u3092\u76f4\u63a5\u898b\u3066\u307f\u3066\u304f\u3060\u3055\u3044\u3002\u7121\u99c4\u306a\u60c5\u5831\u306f\u6975\u529b\u6392\u9664\u3057\u3066\u3042\u308a\u307e\u3059\u3002\n\n\n\n\nvis\n: \u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u56f3/\u30bf\u30a4\u30e0\u30e9\u30a4\u30f3/\u30b0\u30e9\u30d5\n\n\nviz\n: \u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u56f3\n\n\nflowchartjs\n: \u30d5\u30ed\u30fc\u30c1\u30e3\u30fc\u30c8\n\n\njs-sequence-diagrams.md\n: \u30b7\u30fc\u30b1\u30f3\u30b9\u56f3\n\n\nchartjs\n: \u30b0\u30e9\u30d5\n\n\nchartistjs\n: \u30b0\u30e9\u30d5\n\n\nmermaid\n: \u30d5\u30ed\u30fc\u30c1\u30e3\u30fc\u30c8/\u30b7\u30fc\u30b1\u30f3\u30b9\u56f3/\u30ac\u30f3\u30c8\u30c1\u30e3\u30fc\u30c8", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#index", 
+            "text": "Markdown\u306b\u306f\u3001HTML\u3084Javascript\u3092\u76f4\u63a5\u8a18\u8f09\u3059\u308b\u3053\u3068\u304c\u51fa\u6765\u307e\u3059\u3002 \n\u305d\u306e\u305f\u3081\u3001\u4e16\u306e\u4e2d\u306eJS\u30e9\u30a4\u30d6\u30e9\u30ea\u3092\u7d44\u307f\u5408\u308f\u305b\u308b\u3068\u69d8\u3005\u306a\u30f4\u30a3\u30b8\u30e5\u30a2\u30eb\u8868\u73fe\u304c\u51fa\u6765\u307e\u3059\u3002 \n\u3053\u306e\u30b5\u30f3\u30d7\u30eb\u3067\u306f\u3001\u305d\u306e\u4e00\u4f8b\u3092\u7d39\u4ecb\u3057\u307e\u3059\u3002\n\u5b9f\u969b\u306e\u66f8\u304d\u65b9\u306f\u30bd\u30fc\u30b9\u3092\u76f4\u63a5\u898b\u3066\u307f\u3066\u304f\u3060\u3055\u3044\u3002\u7121\u99c4\u306a\u60c5\u5831\u306f\u6975\u529b\u6392\u9664\u3057\u3066\u3042\u308a\u307e\u3059\u3002   vis : \u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u56f3/\u30bf\u30a4\u30e0\u30e9\u30a4\u30f3/\u30b0\u30e9\u30d5  viz : \u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u56f3  flowchartjs : \u30d5\u30ed\u30fc\u30c1\u30e3\u30fc\u30c8  js-sequence-diagrams.md : \u30b7\u30fc\u30b1\u30f3\u30b9\u56f3  chartjs : \u30b0\u30e9\u30d5  chartistjs : \u30b0\u30e9\u30d5  mermaid : \u30d5\u30ed\u30fc\u30c1\u30e3\u30fc\u30c8/\u30b7\u30fc\u30b1\u30f3\u30b9\u56f3/\u30ac\u30f3\u30c8\u30c1\u30e3\u30fc\u30c8", 
+            "title": "Index"
+        }, 
+        {
+            "location": "/vis/", 
+            "text": "vis.js\n\n\n\n\n\n\n\n\n\n\n\n  var container = document.getElementById('visualization');\n  var data = [\n    {id: 1, content: 'item 1', start: '2013-04-20'},\n    {id: 2, content: 'item 2', start: '2013-04-14'},\n    {id: 3, content: 'item 3', start: '2013-04-18'},\n    {id: 4, content: 'item 4', start: '2013-04-16', end: '2013-04-19'},\n    {id: 5, content: 'item 5', start: '2013-04-25'},\n    {id: 6, content: 'item 6', start: '2013-04-27'}\n  ];\n  var options = {};\n  var timeline = new vis.Timeline(container, data, options);", 
+            "title": "vis"
+        }, 
+        {
+            "location": "/vis/#visjs", 
+            "text": "var container = document.getElementById('visualization');\n  var data = [\n    {id: 1, content: 'item 1', start: '2013-04-20'},\n    {id: 2, content: 'item 2', start: '2013-04-14'},\n    {id: 3, content: 'item 3', start: '2013-04-18'},\n    {id: 4, content: 'item 4', start: '2013-04-16', end: '2013-04-19'},\n    {id: 5, content: 'item 5', start: '2013-04-25'},\n    {id: 6, content: 'item 6', start: '2013-04-27'}\n  ];\n  var options = {};\n  var timeline = new vis.Timeline(container, data, options);", 
+            "title": "vis.js"
+        }, 
+        {
+            "location": "/viz/", 
+            "text": "Viz.js\n\n\n\n\n\n\n\n\n\ndigraph \"unix\" {\n  A [tooltip=\"\u30c4\u30fc\u30eb\u30c1\u30c3\u30d7\"]\n  A -> B;\n  \u3042 -> A;\n}\n\n\n\n\n\n//document.getElementById(\"diagram\").innerHTML = Viz(document.getElementById('digraph').innerHTML, 'svg');\n$(\"#diagram\").html(Viz(document.getElementById('digraph').innerHTML, 'svg'));", 
+            "title": "viz"
+        }, 
+        {
+            "location": "/viz/#vizjs", 
+            "text": "digraph \"unix\" {\n  A [tooltip=\"\u30c4\u30fc\u30eb\u30c1\u30c3\u30d7\"]\n  A -> B;\n  \u3042 -> A;\n}  \n//document.getElementById(\"diagram\").innerHTML = Viz(document.getElementById('digraph').innerHTML, 'svg');\n$(\"#diagram\").html(Viz(document.getElementById('digraph').innerHTML, 'svg'));", 
+            "title": "Viz.js"
+        }, 
+        {
+            "location": "/flowchartjs/", 
+            "text": "Flowchart.js\n\n\n\n\n\n\n\n\n\n\n\n\nst=>start: Start|past:>http://www.google.com[blank]\ne=>end: Ende|future:>http://www.google.com\nop1=>operation: My Operation|past\nop2=>operation: Stuff|current\nsub1=>subroutine: My Subroutine|invalid\ncond=>condition: Yes\nor No?|approved:>http://www.google.com\nc2=>condition: Good idea|rejected\nio=>inputoutput: catch something...|future\n\nst->op1(right)->cond\ncond(yes, right)->c2\ncond(no)->sub1(left)->op1\nc2(yes)->io->e\nc2(no)->op2->e\n\n\n\n\n\n$(\".diagram\").flowchart();", 
+            "title": "flowchartjs"
+        }, 
+        {
+            "location": "/flowchartjs/#flowchartjs", 
+            "text": "st=>start: Start|past:>http://www.google.com[blank]\ne=>end: Ende|future:>http://www.google.com\nop1=>operation: My Operation|past\nop2=>operation: Stuff|current\nsub1=>subroutine: My Subroutine|invalid\ncond=>condition: Yes\nor No?|approved:>http://www.google.com\nc2=>condition: Good idea|rejected\nio=>inputoutput: catch something...|future\n\nst->op1(right)->cond\ncond(yes, right)->c2\ncond(no)->sub1(left)->op1\nc2(yes)->io->e\nc2(no)->op2->e  \n$(\".diagram\").flowchart();", 
+            "title": "Flowchart.js"
+        }, 
+        {
+            "location": "/js-sequence-diagrams/", 
+            "text": "js-sequence-diagrams\n\n\n\n\n\n\n\n\n\n\n\n\nAlice->Bob: Hello Bob, how are you?\nNote right of Bob: Bob thinks\nBob-->Alice: I am good thanks!\n\n\n\n\n\n$(\".diagram\").sequenceDiagram({theme: 'simple'});", 
+            "title": "js-sequence-diagrams"
+        }, 
+        {
+            "location": "/js-sequence-diagrams/#js-sequence-diagrams", 
+            "text": "Alice->Bob: Hello Bob, how are you?\nNote right of Bob: Bob thinks\nBob-->Alice: I am good thanks!  \n$(\".diagram\").sequenceDiagram({theme: 'simple'});", 
+            "title": "js-sequence-diagrams"
+        }, 
+        {
+            "location": "/chartjs/", 
+            "text": "Chart.js", 
+            "title": "chartjs"
+        }, 
+        {
+            "location": "/chartjs/#chartjs", 
+            "text": "", 
+            "title": "Chart.js"
+        }, 
+        {
+            "location": "/chartistjs/", 
+            "text": "Chartist.js", 
+            "title": "chartistjs"
+        }, 
+        {
+            "location": "/chartistjs/#chartistjs", 
+            "text": "", 
+            "title": "Chartist.js"
+        }, 
+        {
+            "location": "/mermaid/", 
+            "text": "mermaid\n\n\n\n\n\n\n\n\n\nmermaid.initialize({startOnLoad:true});\n\n\n\ngraph TB\n    A[Hard edge] -->|Link text| B(Round edge)\n    B --> C{Decision}\n    C -->|One| D[Result one]\n    C -->|Two| E[Result two]", 
+            "title": "mermaid"
+        }, 
+        {
+            "location": "/mermaid/#mermaid", 
+            "text": "mermaid.initialize({startOnLoad:true});  \ngraph TB\n    A[Hard edge] -->|Link text| B(Round edge)\n    B --> C{Decision}\n    C -->|One| D[Result one]\n    C -->|Two| E[Result two]", 
+            "title": "mermaid"
+        }
+    ]
+}
