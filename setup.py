@@ -2,23 +2,22 @@
 
 from setuptools import setup
 
-_NAME = 'mkdocs-custom'
-_AUTHOR = 'humangas'
 
 setup(
-    name=_NAME,
+    name='mkdocs_custom',
     version='0.1.0',
     description='Copy mkdocs assts from mkdocs-custom.',
-    author=_AUTHOR,
-    url='https://github.com/{0}/{1}'.format(_AUTHOR, _NAME),
-    packages=[_NAME],
+    author='humangas',
+    url='https://github.com/humangas/mkdocs-custom',
+    packages=['mkdocs_custom'],
     include_package_data=True,
     install_requires=[
+        'click',
         'mkdocs>=0.15.3',
     ],
     entry_points={
         'console_scripts': [
-            'mkdocs-custom-install=cli:copy_mkdocs_assets',
+            'mkdocs-custom = mkdocs_custom.cli:mkdocs_custom',
         ],
     },
 )

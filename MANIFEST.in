@@ -1,4 +1,4 @@
 include README.md
-recursive-include mkdocs-custom *
+recursive-include mkdocs_custom *
 recursive-exclude * __pycache__
 recursive-exclude * *.py[co]
