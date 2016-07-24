@@ -1,5 +1,9 @@
 # coding: utf-8
 
+"""
+
+"""
+
 from distutils.sysconfig import get_python_lib
 import shutil, os, re
 
