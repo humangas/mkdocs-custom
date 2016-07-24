@@ -1,38 +1,39 @@
 # coding: utf-8
 
 from setuptools import setup
+from distutils.sysconfig import get_python_lib
+from distutils.command.install import install as _install
+import os, sys, shutil
+
+MODULE_NAME = 'mkdocs-custom'
+
+def _post_install(dir):
+    from subprocess import call
+    call([sys.executable, 'cli.py'], cwd=os.path.join(dir, MODULE_NAME))
+
+
+class install(_install):
+    def run(self):
+        _install.run(self)
+        self.execute(_post_install, (self.install_lib,),
+                     msg="Running post install task")
+
 
 setup(
-    name='mkdocs-custom',
+    name=MODULE_NAME,
     version='0.1.0',
     description='Copy mkdocs assts from mkdocs-custom.',
     author='humangas',
-    url='https://github.com/humangas/mkdocs-custom',
-    packages=['mkdocs-custom'],
+    url='https://github.com/humangas/'.format(MODULE_NAME),
+    packages=[MODULE_NAME],
     include_package_data=True,
     install_requires=[
         'mkdocs>=0.15.3',
     ],
+    entry_points={
+        'console_scripts': [
+            'mkdocs-custom-install=cli:copy_mkdocs_assets',
+        ],
+    },
+    cmdclass={'install': install},
 )
-
-
-from distutils.sysconfig import get_python_lib
-import shutil, os
-
-def get_contains_file_dirpaths(root_dir_path):
-    """Return contains file dirpaths."""
-    return [dirpath
-            for dirpath, dirnames, filenames in os.walk(root_dir_path)
-            if len(filenames) > 0]
-
-def copy_mkdocs_assets():
-    """Copy mkdocs assts from mkdocs-custom."""
-    root_dir_path = os.path.join(get_python_lib(), 'mkdocs-custom')
-    copy_files_dirs = get_contains_file_dirpaths(root_dir_path)
-
-    for dir in copy_files_dirs:
-        dst = dir.replace('mkdocs-custom', 'mkdocs')
-        for file in os.listdir(dir):
-            shutil.copy(os.path.join(dir, file), dst)
-
-copy_mkdocs_assets()
